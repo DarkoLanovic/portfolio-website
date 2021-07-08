@@ -1,0 +1,470 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+body {
+  background-color: #8DF8CF;
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+  /* Sets the font size to 20px */
+  font-size: 20px;
+  /* Sets the line-height to 1.3 */
+  line-height: 1;
+
+  position: relative;
+  padding-bottom: 100px;
+  min-height: 100vh;
+}
+
+/* H E A D E R - Navigation start */
+
+/* Removing the underliningon on the active element on the navigation list */
+.navigation-list__item--active {
+  text-decoration: none;
+}
+
+/* Removing dots from main navigation */
+.navigation-list {
+  list-style-type: none;
+}
+/* Header Flexbox parent container for logo and main navigation */
+.page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+
+.page-header__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 200px;
+          flex: 0 1 200px;
+  border-radius: 80%;
+}
+ /* Moving navigation on the right side */
+.page-header__item:last-child {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: right;
+}
+
+.navigation-list li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* Navigation section ends */
+
+
+/* Font styling */
+h1 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+      /* BUTTON section starts */
+
+/* Button specifications */
+button {
+  border: none;
+  font-family: inherit;
+  background-color: #91FF00;
+  color: #2b2b2b;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 10px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+
+}
+
+.button_secondary {
+  background-color: #C3FF74;
+  color: #2b2b2b;
+}
+
+/* Button styling */
+button:hover, button:focus {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.buttons {
+  margin: 0px auto;
+  width: 60%;
+}
+
+a {
+  color: #357b70;
+}
+
+a:visited {
+  /* visited link */
+  color: #05676e;
+}
+
+a:hover, a:focus {
+  /* No underlining when hovering over a link, focus is for link activation by keyboard */
+  text-decoration: none;
+}
+
+a:active {
+  /* selected link */
+  color: #789c79;
+}
+
+/* Button for About.html starts */
+.button {
+  /* overwrites browser defaults and resets the border */
+  border: none;
+  display: inline-block;
+  /* takes the font from the outer container */
+  font-family: inherit;
+  /* styles the button */
+  background-color: #06C4C3;
+  color: #2b2b2b;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 3px;
+  /* width of the border, type, color */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.8s opacity;
+  -o-transition: 0.8s opacity;
+  transition: 0.8s opacity;
+}
+button {
+  /* overwrites browser defaults and resets the border */
+  border: none;
+  display: inline-block;
+  /* takes the font from the outer container */
+  font-family: inherit;
+  /* styles the button */
+  background-color: #06C4C3;
+  color: #2b2b2b;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 3px;
+  /* width of the border, type, color */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.8s opacity;
+  -o-transition: 0.8s opacity;
+  transition: 0.8s opacity;
+}
+
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
+  /* lets the mouse appear as a hand when hovering over the button */
+  cursor: pointer;
+  /* reduces the opacity of the button to 80% */
+  opacity: 0.8;
+}
+/* Button for About.html ends */
+
+      /* BUTTON section ends! */
+
+/* Changed colour and font of word "web" */
+.highlight {
+   color: #2056DF;
+   font-weight: bold;
+   font-size: 30px;
+}
+
+/* Moving profile photo starts */
+.profile {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.profile_portrait {
+  float: left;
+  width: 50%;
+  /*max-width: 200px;*/
+  height: 50%;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.profileContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.profileContent {
+  text-align: justify;
+  width: 80%;
+
+}
+/* Moving profile photo ends */
+
+main {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+/* About file changing start */
+.about-item {
+  text-align: center;
+}
+
+.about-list {
+  list-style-type: none;
+}
+
+.button {
+  position: relative;
+  left: 40%;
+}
+/* About.html file changing ends */
+
+/* Contact.html centering */
+
+.contact {
+  max-width: 35%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact-me {
+  max-width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* No floats on the both side */
+
+.page-footer {
+  clear: both;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+}
+
+* {
+  /* Controling padding and border to not affect an elements size */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Making Work.html file grid container */
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 30px 1fr 30px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  background-color: #8DB6F8;
+}
+
+.grid_item {
+  background-color: #958DF8;
+  padding: 10px;
+}
+
+.grid_item:last-child{
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  -ms-grid-column-span: 0;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  -ms-grid-row-span: 2;
+  grid-row-end: 3;
+  /* grid-column: 3 / 3;
+     grid-row: 1 / 3;
+     Can be writtwn in this way*/
+}
+
+/* -- The "old" approach to create layout-- */
+/* start grid fallback */
+.grid_item {
+  display: inline-block;
+  width: 33%;
+}
+/* end grid fallback */
+
+@supports (display: grid) {
+ .grid {
+   display: -ms-grid;
+   display: grid;
+   /* grid-template-columns: 300px 300px 300px; fractions are better than pixels - they are responsive */
+   -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 20px;
+   margin: 0;
+
+ }
+
+ .grid_item {
+   background-color: #958DF8;
+   width: auto;
+   min-height: auto;
+   margin: 0;
+ }
+
+ .grid_item:last-child {
+   -ms-grid-column: 3;
+   grid-column: 3 / 3;
+   -ms-grid-row: 1;
+   -ms-grid-row-span: 2;
+   grid-row: 1 / 3;
+ }
+}
+
+/* RESPONSIVE DESIGNE - media queries */
+
+/* Media query <500px ; 1fr */
+@media all and (max-width: 500px) {
+  .grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Media query 500px to 750px ; 1fr 1fr */
+@media all and (min-width: 500px) and (max-width: 750px) {
+  .grid {
+    -ms-grid-columns: 1fr 20px 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Shered queries code */
+@media all and (max-width: 750px) {
+  .grid {
+    grid-gap: 10px;
+  }
+  .grid_item:last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
+  }
+  h1 {
+    font-size: 22px;
+  }
+}
+
+      /* MAKING AN ANIMATIONS */
+
+/* Changing sun colour */
+@-webkit-keyframes color-change {
+  /*from*/ 0% {
+    fill: #edc655;
+  }
+  /*to*/ 50% {
+    fill: #f76414;
+  }
+  100% {
+    fill: #f76414;
+  }
+}
+@keyframes color-change {
+  /*from*/ 0% {
+    fill: #edc655;
+  }
+  /*to*/ 50% {
+    fill: #f76414;
+  }
+  100% {
+    fill: #f76414;
+  }
+}
+
+.sun {
+  -webkit-animation: 2s color-change infinite alternate linear;
+          animation: 2s color-change infinite alternate linear;
+}
+
+/* Moving Big cloud */
+@-webkit-keyframes cloud-move {
+  from {
+    -webkit-transform: translate(0, 5px);
+            transform: translate(0, 5px);
+  }
+  to {
+    -webkit-transform: translate(400px, 80px);
+            transform: translate(400px, 80px);
+  }
+}
+@keyframes cloud-move {
+  from {
+    -webkit-transform: translate(0, 5px);
+            transform: translate(0, 5px);
+  }
+  to {
+    -webkit-transform: translate(400px, 80px);
+            transform: translate(400px, 80px);
+  }
+}
+
+.cloud-front {
+  -webkit-animation: 10s cloud-move infinite alternate linear;
+          animation: 10s cloud-move infinite alternate linear;
+}
+
+/* Moving small cloud */
+@-webkit-keyframes cloud-move-reverse {
+  from {
+    -webkit-transform: translate(400px, 48px);
+            transform: translate(400px, 48px);
+  }
+  to {
+    -webkit-transform: translate(100px, 48px);
+            transform: translate(100px, 48px);
+  }
+}
+@keyframes cloud-move-reverse {
+  from {
+    -webkit-transform: translate(400px, 48px);
+            transform: translate(400px, 48px);
+  }
+  to {
+    -webkit-transform: translate(100px, 48px);
+            transform: translate(100px, 48px);
+  }
+}
+
+.cloud-back {
+  -webkit-animation: 15s cloud-move-reverse infinite alternate linear;
+          animation: 15s cloud-move-reverse infinite alternate linear
+}
+
+
+/*
+Color used
+
+*/
