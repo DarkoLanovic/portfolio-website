@@ -40,7 +40,7 @@ body {
   display: flex;
   width: 100%;
   padding: 20px;
-  background-color: #EB90CD;
+  background-color: #eb90cd;
 }
 
 .page-header__item {
@@ -194,7 +194,6 @@ button:focus,
 .profileContent {
   text-align: justify;
   width: 80%;
-
 }
 /* Moving profile photo ends */
 
