@@ -38,7 +38,7 @@ body {
   display: flex;
   width: 100%;
   padding: 20px;
-  background-color: var(--secondary-button-color);
+  background-color: #2b2b2b;
 }
 
 .page-header__item {
