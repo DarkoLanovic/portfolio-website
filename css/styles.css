@@ -40,7 +40,7 @@ body {
   display: flex;
   width: 100%;
   padding: 20px;
-  background-color: #06F92F;
+  background-color: var(--secondary-button-color);
 }
 
 .page-header__item {
