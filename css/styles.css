@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: var(--secondary-button-color);
+  background-color: #EB90CD;
   font-family: "Karla", sans-serif;
   font-weight: var(--font-weight);
   /* Sets the font size to 20px */
