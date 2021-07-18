@@ -62,6 +62,7 @@ svg {
 .navigation-list li {
   display: inline-block;
   width: 100%;
+  color: #42a2ed;
 }
 
 /* Navigation section ends */
