@@ -5,20 +5,19 @@
 * Browsers: last 4 version
 */
 
-
 body {
-  background-color: #8DF8CF;
+  background-color: #5a85f8;
   font-family: "Karla", sans-serif;
   font-weight: 300;
   /* Sets the font size to 20px */
   font-size: 20px;
   /* Sets the line-height to 1.3 */
   line-height: 1;
-
   position: relative;
   padding-bottom: 100px;
   min-height: 100vh;
 }
+
 svg {
   height: 505px;
   width: 705px;
@@ -35,6 +34,7 @@ svg {
 .navigation-list {
   list-style-type: none;
 }
+
 /* Header Flexbox parent container for logo and main navigation */
 .page-header {
   display: -webkit-box;
@@ -42,20 +42,20 @@ svg {
   display: flex;
   width: 100%;
   padding: 20px;
-  background-color: #eb90cd;
+  background-color: #0e35c8;
 }
 
 .page-header__item {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 200px;
-          flex: 0 1 200px;
+  -ms-flex: 0 1 200px;
+  flex: 0 1 200px;
   border-radius: 80%;
 }
- /* Moving navigation on the right side */
+/* Moving navigation on the right side */
 .page-header__item:last-child {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   text-align: right;
 }
 
@@ -88,7 +88,7 @@ p {
   font-weight: lighter;
 }
 
-      /* BUTTON section starts */
+/* BUTTON section starts */
 
 /* Button specifications */
 button {
@@ -187,13 +187,13 @@ button:focus,
 }
 /* Button for About.html ends */
 
-      /* BUTTON section ends! */
+/* BUTTON section ends! */
 
 /* Changed colour and font of word "web" */
 .highlight {
-   color: #2056DF;
-   font-weight: bold;
-   font-size: 30px;
+  color: #2056DF;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 /* Moving profile photo starts */
@@ -218,8 +218,8 @@ button:focus,
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .profileContent {
@@ -272,8 +272,8 @@ main {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
   bottom: 0;
   width: 100%;
@@ -283,7 +283,7 @@ main {
 * {
   /* Controling padding and border to not affect an elements size */
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Making Work.html file grid container */
@@ -303,16 +303,16 @@ main {
 
 .grid_item:last-child{
   -ms-grid-column: 3;
-      grid-column-start: 3;
+  grid-column-start: 3;
   -ms-grid-column-span: 0;
   grid-column-end: 3;
   -ms-grid-row: 1;
-      grid-row-start: 1;
+  grid-row-start: 1;
   -ms-grid-row-span: 2;
   grid-row-end: 3;
   /* grid-column: 3 / 3;
-     grid-row: 1 / 3;
-     Can be writtwn in this way*/
+  grid-row: 1 / 3;
+  Can be writtwn in this way*/
 }
 
 /* -- The "old" approach to create layout-- */
@@ -324,31 +324,31 @@ main {
 /* end grid fallback */
 
 @supports (display: grid) {
- .grid {
-   display: -ms-grid;
-   display: grid;
-   /* grid-template-columns: 300px 300px 300px; fractions are better than pixels - they are responsive */
-   -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-gap: 20px;
-   margin: 0;
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    /* grid-template-columns: 300px 300px 300px; fractions are better than pixels - they are responsive */
+    -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: 0;
 
- }
+  }
 
- .grid_item {
-   background-color: #958DF8;
-   width: auto;
-   min-height: auto;
-   margin: 0;
- }
+  .grid_item {
+    background-color: #958DF8;
+    width: auto;
+    min-height: auto;
+    margin: 0;
+  }
 
- .grid_item:last-child {
-   -ms-grid-column: 3;
-   grid-column: 3 / 3;
-   -ms-grid-row: 1;
-   -ms-grid-row-span: 2;
-   grid-row: 1 / 3;
- }
+  .grid_item:last-child {
+    -ms-grid-column: 3;
+    grid-column: 3 / 3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1 / 3;
+  }
 }
 
 /* RESPONSIVE DESIGNE - media queries */
@@ -392,102 +392,102 @@ main {
     /* flex: 0 1 200px; */
     border-radius: 80%;
     width: 120px;
-}
-.profile,main {
-  max-width: 90%;
-  margin: 5px;
-}
-button{
-  margin-left: 5px;
-}
-.navigation-list {
-  height: 100%
-}
+  }
+  .profile,main {
+    max-width: 90%;
+    margin: 5px;
+  }
+  button{
+    margin-left: 5px;
+  }
+  .navigation-list {
+    height: 100%
+  }
 }
 
-      /* MAKING AN ANIMATIONS */
+/* MAKING AN ANIMATIONS */
 
 /* Changing sun colour */
 @-webkit-keyframes color-change {
   /*from*/ 0% {
-    fill: #edc655;
-  }
-  /*to*/ 50% {
-    fill: #f76414;
-  }
-  100% {
-    fill: #f76414;
-  }
+  fill: #edc655;
+}
+/*to*/ 50% {
+fill: #f76414;
+}
+100% {
+  fill: #f76414;
+}
 }
 @keyframes color-change {
   /*from*/ 0% {
-    fill: #edc655;
-  }
-  /*to*/ 50% {
-    fill: #f76414;
-  }
-  100% {
-    fill: #f76414;
-  }
+  fill: #edc655;
+}
+/*to*/ 50% {
+fill: #f76414;
+}
+100% {
+  fill: #f76414;
+}
 }
 
 .sun {
   -webkit-animation: 2s color-change infinite alternate linear;
-          animation: 2s color-change infinite alternate linear;
+  animation: 2s color-change infinite alternate linear;
 }
 
 /* Moving Big cloud */
 @-webkit-keyframes cloud-move {
   from {
     -webkit-transform: translate(0, 5px);
-            transform: translate(0, 5px);
+    transform: translate(0, 5px);
   }
   to {
     -webkit-transform: translate(400px, 80px);
-            transform: translate(400px, 80px);
+    transform: translate(400px, 80px);
   }
 }
 @keyframes cloud-move {
   from {
     -webkit-transform: translate(0, 5px);
-            transform: translate(0, 5px);
+    transform: translate(0, 5px);
   }
   to {
     -webkit-transform: translate(400px, 80px);
-            transform: translate(400px, 80px);
+    transform: translate(400px, 80px);
   }
 }
 
 .cloud-front {
   -webkit-animation: 10s cloud-move infinite alternate linear;
-          animation: 10s cloud-move infinite alternate linear;
+  animation: 10s cloud-move infinite alternate linear;
 }
 
 /* Moving small cloud */
 @-webkit-keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(400px, 48px);
-            transform: translate(400px, 48px);
+    transform: translate(400px, 48px);
   }
   to {
     -webkit-transform: translate(100px, 48px);
-            transform: translate(100px, 48px);
+    transform: translate(100px, 48px);
   }
 }
 @keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(400px, 48px);
-            transform: translate(400px, 48px);
+    transform: translate(400px, 48px);
   }
   to {
     -webkit-transform: translate(100px, 48px);
-            transform: translate(100px, 48px);
+    transform: translate(100px, 48px);
   }
 }
 
 .cloud-back {
   -webkit-animation: 15s cloud-move-reverse infinite alternate linear;
-          animation: 15s cloud-move-reverse infinite alternate linear
+  animation: 15s cloud-move-reverse infinite alternate linear
 }
 
 
