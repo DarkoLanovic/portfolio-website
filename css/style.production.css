@@ -61,7 +61,7 @@ svg {
 
 .navigation-list li {
   display: inline-block;
-  width: 100px;
+  width: 100%;
 }
 
 /* Navigation section ends */
@@ -403,7 +403,6 @@ main {
   .navigation-list {
     height: 100%
   }
-
 }
 
 /* MAKING AN ANIMATIONS */
