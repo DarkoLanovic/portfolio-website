@@ -19,6 +19,10 @@ body {
   padding-bottom: 100px;
   min-height: 100vh;
 }
+svg {
+  height: 505px;
+  width: 705px;
+}
 
 /* H E A D E R - Navigation start */
 
@@ -373,6 +377,11 @@ main {
   .grid_item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
+  }
+  svg {
+    height: 505px;
+    width: 100%;
+    overflow: visible;
   }
   h1 {
     font-size: 22px;
