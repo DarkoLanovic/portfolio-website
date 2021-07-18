@@ -335,8 +335,14 @@ main {
     -ms-flex: 0 1 200px;
     /* flex: 0 1 200px; */
     border-radius: 80%;
-    width: 220px;
+    width: 120px;
 }
+.profile,main {
+  max-width: 100%;
+  margin: 5px;
+}
+button{
+  margin-left: 5px;
 }
 
       /* MAKING AN ANIMATIONS */
