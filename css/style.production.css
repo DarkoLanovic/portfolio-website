@@ -206,6 +206,7 @@ button:focus,
 .profile_portrait {
   float: left;
   width: 50%;
+  padding: 20px;
   /*max-width: 200px;*/
   height: 50%;
   margin-right: 30px;
