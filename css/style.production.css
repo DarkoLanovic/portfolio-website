@@ -403,6 +403,9 @@ main {
   .navigation-list {
     height: 100%
   }
+  .navigation-list li {
+    display: inline-block;
+    margin: 15px;
 }
 
 /* MAKING AN ANIMATIONS */
