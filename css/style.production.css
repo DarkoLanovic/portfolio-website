@@ -405,7 +405,8 @@ main {
   }
   .navigation-list li {
     display: inline-block;
-    margin: 30px;
+    margin: 15px;
+  }
 }
 
 /* MAKING AN ANIMATIONS */
